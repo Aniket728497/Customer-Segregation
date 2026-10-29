@@ -94,7 +94,7 @@ The optimal number of clusters was evaluated across `K = 2` to `K = 11` (`random
 
 # Customer Segmentation Using RFM and K-Means
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Customer-Segmentation-RFM-KMeans/
@@ -110,7 +110,7 @@ The Jupyter Notebook covers the complete customer segmentation workflow, includi
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to set up and run the project locally.
 
@@ -170,7 +170,7 @@ Once Jupyter Notebook opens in your browser, open the notebook and execute the c
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category                    | Technologies                      |
 | --------------------------- | --------------------------------- |
@@ -179,7 +179,7 @@ Once Jupyter Notebook opens in your browser, open the notebook and execute the c
 | **Data Visualization**      | Matplotlib, Seaborn, Plotly       |
 | **Machine Learning**        | Scikit-learn                      |
 | **Clustering Algorithm**    | K-Means                           |
-| **Cluster Validation**      | Silhouette Score, Inertia (WCSS)  |
-| **Feature Transformation**  | `np.log1p`, `StandardScaler`, PCA |
+| **Cluster Validation**      | Silhouette Score, Inertia |
+| **Feature Transformation**  | `np.log1p`, `StandardScaler` |
 | **Development Environment** | Jupyter Notebook                  |
 
