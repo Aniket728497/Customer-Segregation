@@ -1,6 +1,6 @@
 <div align="center">
 
-# Customer Segmentation Using RFM Analysis and K-Means Clustering
+# Customer Segmentation Using RFM Analysis and   K-Means Clustering
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
