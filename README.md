@@ -68,7 +68,7 @@ The pipeline cleans and transforms the raw transaction logs through five structu
 
 ## Feature Skewness & Transformation
 
-Retail purchasing metrics exhibit severe right-skewness due to wholesale buyers and high-frequency regulars. Because K-Means relies on Euclidean distance, `np.log1p` ($\ln(1 + x)$) was applied prior to standardization with `StandardScaler`:
+Retail purchasing metrics exhibit severe right-skewness due to wholesale buyers and high-frequency regulars. Because K-Means relies on Euclidean distance, `np.log1p` was applied prior to standardization with `StandardScaler`:
 
 | Feature | Raw Skewness | Log-Transformed Skewness (`np.log1p`) | Post-Scaling Mean | Post-Scaling Std Dev |
 |---------|:------------:|:-------------------------------------:|:-----------------:|:--------------------:|
