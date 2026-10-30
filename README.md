@@ -1,6 +1,6 @@
 <div align="center">
 
-# Customer Segmentation Using RFM Analysis and K-Means Clustering
+# Customer Segmentation Using RFM Analysis and   K-Means Clustering
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
@@ -68,7 +68,7 @@ The pipeline cleans and transforms the raw transaction logs through five structu
 
 ## Feature Skewness & Transformation
 
-Retail purchasing metrics exhibit severe right-skewness due to wholesale buyers and high-frequency regulars. Because K-Means relies on Euclidean distance, `np.log1p` ($\ln(1 + x)$) was applied prior to standardization with `StandardScaler`:
+Retail purchasing metrics exhibit severe right-skewness due to wholesale buyers and high-frequency regulars. Because K-Means relies on Euclidean distance, `np.log1p` was applied prior to standardization with `StandardScaler`:
 
 | Feature | Raw Skewness | Log-Transformed Skewness (`np.log1p`) | Post-Scaling Mean | Post-Scaling Std Dev |
 |---------|:------------:|:-------------------------------------:|:-----------------:|:--------------------:|
@@ -94,7 +94,7 @@ The optimal number of clusters was evaluated across `K = 2` to `K = 11` (`random
 
 # Customer Segmentation Using RFM and K-Means
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Customer-Segmentation-RFM-KMeans/
@@ -110,7 +110,7 @@ The Jupyter Notebook covers the complete customer segmentation workflow, includi
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to set up and run the project locally.
 
@@ -170,7 +170,7 @@ Once Jupyter Notebook opens in your browser, open the notebook and execute the c
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category                    | Technologies                      |
 | --------------------------- | --------------------------------- |
@@ -179,7 +179,7 @@ Once Jupyter Notebook opens in your browser, open the notebook and execute the c
 | **Data Visualization**      | Matplotlib, Seaborn, Plotly       |
 | **Machine Learning**        | Scikit-learn                      |
 | **Clustering Algorithm**    | K-Means                           |
-| **Cluster Validation**      | Silhouette Score, Inertia (WCSS)  |
-| **Feature Transformation**  | `np.log1p`, `StandardScaler`, PCA |
+| **Cluster Validation**      | Silhouette Score, Inertia |
+| **Feature Transformation**  | `np.log1p`, `StandardScaler` |
 | **Development Environment** | Jupyter Notebook                  |
 
